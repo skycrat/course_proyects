@@ -17,6 +17,6 @@ for x, y, w, h in faces:
 
 resized = cv.resize(img,(int(img.shape[1]*2), int(img.shape[0]*2)))
 
-cv.imshow("Ryan_Gray", resized)
+cv.imshow("Faces_detected", resized)
 cv.waitKey(0)
 cv.destroyAllWindows()
